@@ -4,11 +4,13 @@ This is an improved version of the RNN-BIQA, https://github.com/jarikorhonen/rnn
 
 As a prerequisite, the following third-party image quality databases need to be installed:
 
-LIVE Challenge image quality database from: http://live.ece.utexas.edu/research/ChallengeDB/
+LIVE Challenge image quality database from: http://live.ece.utexas.edu/research/ChallengeDB/ (for training the featrue extractor)
 
-KoNIQ-10k image quality database from: http://database.mmsp-kn.de/koniq-10k-database.html
+KoNIQ-10k image quality database from: http://database.mmsp-kn.de/koniq-10k-database.html (for training and testing the RNN model)
 
-SPAQ image quality database from: https://github.com/h4nwei/SPAQ
+SPAQ image quality database from: https://github.com/h4nwei/SPAQ (for training and testing the RNN model)
+
+In addition, the additional low and high quality patches for training the feature extractor are available for download here[https://mega.nz/file/vVYwgKAI#9PXT-KmnWTlRbUvdd4cgTTjoEo6fmGIUJvvZhrAE2Tc].
 
 For using the implementation, download all the Matlab scripts in the same folder.
 
