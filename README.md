@@ -46,4 +46,4 @@ feature extractor and `computeCNNfeaturesV2.m` script.
 and then vice versa. Uses `trainAndTestRNNmodelv2.m` script for this purpose. Displays the results
 for SCC, PCC, and RMSE.
 
-You may skip steps 1 and 3 and use the pretrained feature extractor model available to download [here](https://mega.nz/file/qA4GzQ4S#SUC2zdpNnCNvEhYHsV6lewJLslTnrULmEGKm0Iz2VZk). 
+You may skip steps 1 and 3 and use the pretrained feature extractor model available to download [here](https://mega.nz/file/qA4GzQ4S#SUC2zdpNnCNvEhYHsV6lewJLslTnrULmEGKm0Iz2VZk). In this case, you can comment out lines 42-43 and 51-52 in `masterScript.m`.
