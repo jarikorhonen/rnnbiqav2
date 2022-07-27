@@ -45,3 +45,5 @@ feature extractor and `computeCNNfeaturesV2.m` script.
 5) Trains and tests RNN model by using KoNIQ-10k features for training and SPAQ for testing,
 and then vice versa. Uses `trainAndTestRNNmodelv2.m` script for this purpose. Displays the results
 for SCC, PCC, and RMSE.
+
+You may skip steps 1 and 3 and use the pretrained feature extractor model available to download [here](https://mega.nz/file/qA4GzQ4S#SUC2zdpNnCNvEhYHsV6lewJLslTnrULmEGKm0Iz2VZk). 
