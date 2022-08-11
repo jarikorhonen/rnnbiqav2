@@ -37,7 +37,7 @@ _'c:\\spaq'_.
 The script implements the following functionality:
 
 1) Makes patches out of LIVE Challenge dataset and makes probabilistic quality scores (file 
-_LiveC_prob.mat_), `using processLiveChallenge.m` script.
+_LiveC_prob.mat_), using `processLiveChallenge.m` script.
 2) Makes downscaled version of the SPAQ dataset (SPAQ-768), using `resizeImages.m` script.
 3) Trains CNN feature extractor, using `trainCNNmodelV2.m` script.
 4) Extracts feature vector sequences from KoNIQ-10k and SPAQ images, using the trained
