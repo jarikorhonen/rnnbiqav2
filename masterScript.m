@@ -32,7 +32,6 @@ function out = masterScript(livec_path, ...
 % Phase 1: setup 
 %
          
-trainCNNmodelVQAv2();
 cnn_model_file = 'CNN_model_RNNBIQAv2.mat'; 
 livec_patches_path =  '.\\livec_patches';
 spaq768_path = [spaq_path '\\spaq768'];
