@@ -10,7 +10,7 @@ KoNIQ-10k image quality database from: http://database.mmsp-kn.de/koniq-10k-data
 
 SPAQ image quality database from: https://github.com/h4nwei/SPAQ (for training and testing the RNN model)
 
-In addition, the additional low and high quality patches for training the feature extractor are available for download [here]([https://mega.nz/file/vVYwgKAI#9PXT-KmnWTlRbUvdd4cgTTjoEo6fmGIUJvvZhrAE2Tc](https://mega.nz/file/qA4GzQ4S#SUC2zdpNnCNvEhYHsV6lewJLslTnrULmEGKm0Iz2VZk). The ZIP file should be extracted under the same directory where the generated LIVE Challenge patches are stored (by default, the directory is _.\\livec_patches_, and therefore the additional patches should be in directories _.\\livec_patches\\hq_images_ and _.\\livec_patches\\hq_images_.
+In addition, the additional low and high quality patches for training the feature extractor are available for download [here](https://mega.nz/file/vVYwgKAI#9PXT-KmnWTlRbUvdd4cgTTjoEo6fmGIUJvvZhrAE2Tc). The ZIP file should be extracted under the same directory where the generated LIVE Challenge patches are stored (by default, the directory is _.\\livec_patches_, and therefore the additional patches should be in directories _.\\livec_patches\\hq_images_ and _.\\livec_patches\\hq_images_.
 
 For using the implementation, download all the Matlab scripts in the same folder.
 
