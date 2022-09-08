@@ -115,7 +115,7 @@ for i=1:seqlen
 end
 
 % Train and test RNN model
-result = trainAndTestRNNmodelv2(XTrain, YTrain, XTest, YTest, cpugpu);
+result = trainAndTestRNNmodelv2(XTrain, YTrain, XTest, YTest);
 fprintf('Results when training on KoNIQ-10k and testing on SPAQ:\n');
 fprintf('SCC: %1.3f PCC: %1.3f RMSE: %2.1f\n', result(1), result(2), result(3)*100);
 
@@ -128,7 +128,7 @@ XTrain = XTemp;
 YTrain = YTemp;
 
 % Train and test RNN model
-result = trainAndTestRNNmodelv2(XTrain, YTrain, XTest, YTest, cpugpu);
+result = trainAndTestRNNmodelv2(XTrain, YTrain, XTest, YTest);
 fprintf('Results when training on SPAQ and testing on KoNIQ-10k:\n');
 fprintf('SCC: %1.3f PCC: %1.3f RMSE: %2.1f\n', result(1), result(2), result(3)*100);
 
