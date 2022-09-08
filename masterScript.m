@@ -74,7 +74,7 @@ fprintf('Extracting features for SPAQ...\n');
 metadata = readmatrix([spaq_path '\\mos_spaq.xlsx']);
 seqlen = size(metadata,1);
 for i=1:seqlen
-    filename = sprintf('%s\\%05d.png',spaq_path,i);
+    filename = sprintf('%s\\%05d.png',spaq768_path,i);
     computeCNNfeaturesV2(filename, model, cpugpu);
     if mod(i,100)==0
         fprintf('Extracted features for %d/%d images\n',i,seqlen);
