@@ -15,9 +15,12 @@
 %      YTest:     Testing ground truth MOS vector
 %
 %  Output:
-%      [
+%      [SROCC PCC RMSE]
 
 function result = trainAndTestRNNmodelv2(XTrain,YTrain,XTest,YTest)
+
+XTrain = XTrain';
+XTest = XTest';
 
 % Preprocess input data
 XTest1 = {};
